@@ -43,7 +43,7 @@ DB_NAME = os.environ.get("DB_NAME", "filestorebot")
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. 💾")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nɪ ᴀᴍ ᴀ ғɪʟᴇ sᴛᴏʀᴇʀ ʙᴏᴛ ᴏғ ᴋs ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ᴀɴᴅ ᴋs ᴋᴏʀᴇᴀɴ ᴅʀᴀᴍᴀ, ɪ sᴛᴏʀᴇ ғɪʟᴇs ɪɴsɪᴅᴇ ᴍᴇ ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇᴍ ʙʏ sᴏʟᴠɪɴɢ sʜᴏʀᴛᴇɴᴇʀ ғʀᴏᴍ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ!\n» @KS_MOVIESANDSERIES\n» @KS_KOREANDRAMA")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "")
 #Time in seconds for message delete
@@ -95,7 +95,7 @@ PRICE5 = os.environ.get("PRICE5", "999 rs")
 
 
 #force message for joining the channel
-FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
+FORCE_MSG = os.environ.get("FORCE_MSG", "ʜᴇʟʟᴏ {first}\n\n<b>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴛʜᴇ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ!</b>")
 #custom caption 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 #protected content so that no files can be sent from the bot to anyone. recommended False
